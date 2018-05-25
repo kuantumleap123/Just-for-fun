@@ -1,5 +1,6 @@
 <?php
 //This is a program dedicated to lazy people who do not have calculators
+//Program accepts a string input of basic arithmetic operators, parse input and evaluate
 
 $input = "5*6/9-8/5-3*9/77*56+346-78";
 $num_space = 0;		$num_op = 0;	$useless_char = 0;
