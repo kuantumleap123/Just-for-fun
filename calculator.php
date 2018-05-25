@@ -89,7 +89,7 @@ else
 		}
 	}//end loop
 
-	$num_op_and_number = sizeof($oper)-1;
+	$num_op_and_number = sizeof($oper);
 	if($num_op_and_number < 2*$num_op+1)
 	{
 		echo("EXTRA OPERATORS IN EXPRESSION!");
