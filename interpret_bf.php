@@ -46,8 +46,40 @@ function dec_cell()
 
 function out()
 {
-	echo($memory[$ptr]);
+	echo(chr($memory[$ptr]));
 }
 
+for($i=0;$i<strlen($input);$i++)
+{
+	if($input[$i] == '>')
+	{
+		next_cell();
+	}
+	
+	else if($input[$i] == '<')
+	{
+		prev_cell();
+	}
+	
+	else if($input[$i] == '+')
+	{
+		inc_cell();
+	}
+	
+	else if($input[$i] == '-')
+	{
+		dec_cell();
+	}
+	
+	else if($input[$i] == '.')
+	{
+		out();
+	}
+	
+	else if($input[$i] == '[')
+	{
+		
+	}
+}
 
 ?>
