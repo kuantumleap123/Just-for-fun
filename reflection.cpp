@@ -6,14 +6,6 @@ int main()
 {
     int width;
     int height;
-    cout << "Please enter width: ";#include <iostream>
-
-using namespace std;
-
-int main()
-{
-    int width;
-    int height;
     cout << "Please enter width: ";
     cin >> width;
     cout << "Please enter height: ";
@@ -253,11 +245,5 @@ int main()
         cout << i << "->" << exit << endl;
         hasExited = false;
     }
-    return 0;
-}
-
-    cin >> width;
-    cout << "Please enter height: ";
-    cin >> height;
     return 0;
 }
