@@ -11,7 +11,11 @@ int main()
     cout << "Please enter height: ";
     cin >> height;
 
-    string chamber[width][height] = {};
+    string** chamber = new string*[width];
+    for(int i=0;i<width;i++)
+    {
+        chamber[i] = new string[height];
+    }
     for(int i=0;i<width;i++)
     {
         for(int j=0;j<height;j++)
